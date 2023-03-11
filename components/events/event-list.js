@@ -3,7 +3,7 @@ import EventItem from "./event-item";
 import classes from "../../styles/event-list.module.css";
 
 const EventList = (props) => {
-  console.log(props);
+  // console.log(props);
 
   const { items } = props;
 
@@ -13,7 +13,7 @@ const EventList = (props) => {
         return (
           <EventItem
             key={item.id}
-            id={item.event}
+            id={item.id}
             title={item.title}
             location={item.location}
             date={item.date}
